@@ -24,10 +24,10 @@ const App = () => {
 
   return (
     
-    <BrowserRouter>
-     
-      <Switch>
-      
+   <div>  
+    <Inicio/>
+    <BrowserRouter>      
+      <Switch>      
         <Route exact path="/Inicio" component={Inicio} />
        
         <Route exact path="/Logins" component={Logins} />
@@ -57,7 +57,7 @@ const App = () => {
         <Route exact path="/EstudiantesNoRealizaronTest" component={EstudiantesNoRealizaronTest} />
       </Switch>
     </BrowserRouter>
-   
+   </div>
   );
 };
 
