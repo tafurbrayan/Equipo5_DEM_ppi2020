@@ -24,8 +24,7 @@ const App = () => {
 
   return (
     
-   <div>  
-    <Inicio/>
+    
     <BrowserRouter>      
       <Switch>      
         <Route exact path="/Inicio" component={Inicio} />
@@ -57,7 +56,7 @@ const App = () => {
         <Route exact path="/EstudiantesNoRealizaronTest" component={EstudiantesNoRealizaronTest} />
       </Switch>
     </BrowserRouter>
-   </div>
+   
   );
 };
 
