@@ -6,8 +6,10 @@ class Registro extends React.Component {
   render() {
     return (
       <div id="Fondo_1" style={{ backgroundImage: `url(${Control})` }}>
-        <div>
-          <h1>Registro de usuario</h1>
+              
+       
+    
+          <h1 className="tit5">Registro de usuario</h1>
           <a href="Logins">
             <svg
               id="svg1"
@@ -25,18 +27,19 @@ class Registro extends React.Component {
             </svg>
           </a>
           <div>
-            <form>
-              <div id="sinrow" class="form-group col-md-6">
+            <form className="Formu ">
+              <div  class="form-group col-8">
                 <label for="inputEmail4">Email</label>
                 <input
                   type="email"
                   class="form-control"
                   id="inputEmail4"
                   placeholder="Por ejemplo: @gmail.com"
+                 
                 />
               </div>
 
-              <div id="sinrow" class="form-group col-md-6">
+              <div  class="form-group col-8">
                 <label for="inputAddress">Usuario</label>
                 <input
                   type="text"
@@ -46,7 +49,7 @@ class Registro extends React.Component {
                 />
               </div>
 
-              <div id="sinrow" class="form-group col-md-6">
+              <div  class="form-group col-8">
                 <label for="inputAddress2">Contraseña</label>
                 <input
                   type="text"
@@ -56,14 +59,16 @@ class Registro extends React.Component {
                 />
               </div>
 
-              <div id="sinrow" class="form-group col-md-6">
+              <div  class="form-group col-8">
                 <label for="inputCity">Documento de identidad</label>
                 <input type="text" class="form-control" id="inputCity" />
               </div>
             </form>
           </div>
         </div>
-      </div>
+
+    
+    
     );
   }
 }

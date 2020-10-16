@@ -31,7 +31,6 @@ class CLogins extends React.Component {
                   Registrar Profesional
                 </a>
               </button>
-
               <a href="Inicio">
                 <svg
                   id="svg2"

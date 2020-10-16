@@ -1,21 +1,11 @@
 import React from "react";
-import RAmarillo from "../Imagenes/img/RAmarillo.jpg";
-import RVerde from "../Imagenes/img/RVerde.jpg";
-import RRojo from "../Imagenes/img/RROJO.jpg";
+import "../Style/styles.css";
+import Resultado from "../Imagenes/img/Resultados.png";
 
 class ResultadoGlobal extends React.Component {
   render() {
     return (
-      <div>
-       
-        <div>
-          <img className="fcu" src={RAmarillo} />
-          <img className="fcu" src={RVerde} />
-          <img className="fcu" src={RRojo} />
-         
-          
-        </div>
-      </div>
+      <div id="Fondo_1" style={{ backgroundImage: `url(${Resultado})` }}></div>
     );
   }
 }

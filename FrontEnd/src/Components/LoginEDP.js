@@ -6,7 +6,10 @@ class LoginEDP extends React.Component {
   render() {
     return (
       <div id="Fondo_1" style={{ backgroundImage: `url(${Paisaje})` }}>
-        <div>
+      <div className="container fluid" >
+        <div className="row">
+          <div className="col">
+
           <a href="SeleccLogin">
             <svg
               id="svg5"
@@ -23,11 +26,13 @@ class LoginEDP extends React.Component {
               />
             </svg>
           </a>
-          <h1> Psitopía Net </h1>
+          <h1 className="tit1"> Psitopía Net </h1>
           <div>
             <form>
-              <div id="sinrow" class="form-group col-md-6">
-                <label for="exampleInputEmail1">Email</label>
+              <div class="form-group col-md-6">
+                <label className="tit1" for="exampleInputEmail1">
+                  Email
+                </label>
                 <input
                   type="email"
                   class="form-control"
@@ -37,8 +42,10 @@ class LoginEDP extends React.Component {
                 ></input>
                 <small id="emailHelp" class="form-text text-muted"></small>
               </div>
-              <div id="sinrow" class="form-group col-md-6">
-                <label for="exampleInputPassword1">Contraseña</label>
+              <div class="form-group col-md-6">
+                <label className="tit1" for="exampleInputPassword1">
+                  Contraseña
+                </label>
                 <input
                   type="password"
                   class="form-control"
@@ -46,10 +53,15 @@ class LoginEDP extends React.Component {
                   placeholder="Escribe tu contraseña"
                 ></input>
               </div>
+              <a href="OlvidasteTuContraseña">
+                <p id="olv">¿Olvidaste tu contraseña?</p>
+              </a>
             </form>
           </div>
         </div>
       </div>
+</div>
+</div>
     );
   }
 }

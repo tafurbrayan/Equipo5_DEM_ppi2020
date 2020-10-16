@@ -9,7 +9,7 @@ class SeleccLogin extends React.Component {
         <div className="container">
           <div className="row">
             <div className="col-sm">
-              <h1>Psitopía Net</h1>
+              <h1 className="tit2" >Psitopía Net</h1>
               <button id="botle" type="button" class="btn btn-primary">
                 <a id="le" href="LoginEstudiante">
                   Login Estudiante
