@@ -8,7 +8,7 @@ class LoginEDP extends React.Component {
       <div id="Fondo_1" style={{ backgroundImage: `url(${Paisaje})` }}>
       <div className="container fluid" >
         <div className="row">
-          <div className="col">
+          <div className="col-12">
 
           <a href="SeleccLogin">
             <svg
@@ -29,7 +29,7 @@ class LoginEDP extends React.Component {
           <h1 className="tit1"> Psitopía Net </h1>
           <div>
             <form>
-              <div class="form-group col-md-6">
+              <div class="form-group col">
                 <label className="tit1" for="exampleInputEmail1">
                   Email
                 </label>
@@ -42,7 +42,7 @@ class LoginEDP extends React.Component {
                 ></input>
                 <small id="emailHelp" class="form-text text-muted"></small>
               </div>
-              <div class="form-group col-md-6">
+              <div class="form-group col">
                 <label className="tit1" for="exampleInputPassword1">
                   Contraseña
                 </label>

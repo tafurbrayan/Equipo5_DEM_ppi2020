@@ -4,7 +4,7 @@ export default function RegistrarEstudiante() {
   return (
     <div>
       <Registro />
-      <form>
+      <form id="selecarc" >
         <div class="form-group">
           <label for="exampleFormControlFile1"></label>
           <input
@@ -14,9 +14,6 @@ export default function RegistrarEstudiante() {
           />
         </div>
       </form>
-      <button id="botps" type="submit" class="btn btn-primary">
-        <a id="bps" href="Logins">Registrarse</a>
-      </button>
     </div>
   );
 }

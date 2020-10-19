@@ -2,8 +2,8 @@
   position: relative;
   display: inline-block;
   text-align: center;
-  transform: translate(115%, 0%);
 }
+.text-nowrap
 h2 {
   position: absolute;
   top: 20%;
@@ -12,6 +12,7 @@ h2 {
   font-size: 40px;
   color: rgb(0, 0, 0);
 }
+
 img,
 .fmenu,
 .fcu {
@@ -21,17 +22,37 @@ img,
 #sigin {
   margin: 20px;
 }
-
-h1 {
-  text-align: center;
+body{
+  background-size: 100vw 100vh;
 }
 
+h1,
+h2, p {
+  text-align: center;
+  font-family: "Chewy";
+}
+
+#olv{
+position: relative;
+text-align: center;
+}
 #Fondo_1 {
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  min-height: 100vh;
+  min-height:100vh  ;
+
+  background-color: #ffffff;
+  
+}
+#Fondo_2{
+  
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  min-height:100vh  ;
+  background-size: 100vw 100vh;
 }
 
 #butt1 {
@@ -40,15 +61,22 @@ h1 {
   left: 50%;
   transform: translate(-50%, 460%);
   font-size: 40px;
-  background-color: #d382f1;
+  background-color: #258d19;
   text-decoration: none;
 }
+#but{
+  
+  color: #ffff00;
+  font-family: "Chewy";
+  
 
-#but,
+
+}
+
+
 #bd,
 #bps,
 #br,
-#tit1,
 #t,
 #le,
 #ld,
@@ -56,12 +84,33 @@ h1 {
 #me,
 #qt,
 #qsr,
-#botlogin {
+#botlogin,
+#isd,
+#isps,
+
+.tit2, #bt-ol {
   color: white;
+  font-family: "Chewy";
+ 
+}
+#tit6{
+margin-bottom: 30px;
+color:#ffefbc;
+}
+
+.tit1{
+  color:#ffffff;
+  
+}
+label{
+font-size:20px;
+font-weight:bold;
 }
 #tit {
   font-size: 80px;
   transform: translate(1%, 20%);
+  font-family: "Chewy";
+  color: white;
 }
 
 #butt2 {
@@ -72,40 +121,78 @@ h1 {
   font-size: 20px;
   background-color: #0f57c6;
   text-decoration: none;
+  font-family: "Chewy";
 }
 #butt22 {
   position: absolute;
   top: 20%;
   left: 50%;
-  transform: translate(-50%, 760%);
+  transform: translate(-50%, 660%);
   font-size: 20px;
   background-color: #0f57c6;
   text-decoration: none;
+  font-family: "Chewy";
 }
 #butt23 {
   position: absolute;
   top: 20%;
   left: 50%;
-  transform: translate(-50%, 960%);
+  transform: translate(-50%, 860%);
   font-size: 20px;
   background-color: #0f57c6;
   text-decoration: none;
+  font-family: "Chewy";
 }
 #butt24 {
   position: absolute;
   top: 20%;
   left: 50%;
-  transform: translate(-50%, 1160%);
+  transform: translate(-50%, 1060%);
   font-size: 20px;
   background-color: #0f57c6;
   text-decoration: none;
+  font-family: "Chewy";
+}
+#butt25{
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, 80%);
+  font-size: 20px;
+  background-color: #0f57c6;
+  text-decoration: none;
+  font-family: "Chewy";
+}
+#butt26{
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-70%, 600%);
+  font-size: 20px;
+  background-color: #0f57c6;
+  text-decoration: none;
+  font-family: "Chewy";
+
+}
+
+#butt27{
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-90%,900%);
+  font-size: 20px;
+  background-color: #0f57c6;
+  text-decoration: none;
+  font-family: "Chewy";
 }
 #botlogin {
   color: white;
+  font-family: "Chewy";
 }
 #tit {
   font-size: 80px;
   transform: translate(1%, 20%);
+  font-family: "Chewy";
 }
 
 #butt2 {
@@ -116,50 +203,49 @@ h1 {
   font-size: 20px;
   background-color: #0f57c6;
   text-decoration: none;
+  font-family: "Chewy";
 }
 #butt22 {
   position: absolute;
   top: 20%;
   left: 50%;
-  transform: translate(-50%, 760%);
+  transform: translate(-50%, 660%);
   font-size: 20px;
   background-color: #0f57c6;
   text-decoration: none;
+  font-family: "Chewy";
 }
 #butt23 {
   position: absolute;
   top: 20%;
   left: 50%;
-  transform: translate(-50%, 960%);
+  transform: translate(-50%, 860%);
   font-size: 20px;
   background-color: #0f57c6;
   text-decoration: none;
+  font-family: "Chewy";
 }
 #butt24 {
   position: absolute;
   top: 20%;
   left: 50%;
-  transform: translate(-50%, 1160%);
+  transform: translate(-50%, 1060%);
   font-size: 20px;
   background-color: #0f57c6;
   text-decoration: none;
+  font-family: "Chewy";
 }
 #botreg {
-  position: absolute;
-  top: 20%;
-  left: 50%;
-  transform: translate(-50%, 740%);
+  position: relative;
   font-size: 20px;
   background-color: #0f57c6;
   text-decoration: none;
+  font-family: "Chewy";
 }
 #svg1 {
-  position: absolute;
-  top: 20%;
-  left: 50%;
-  transform: translate(-360%, 480%);
-  font-size: 20px;
-  height: 14%;
+  position: relative;
+  float: left;
+  height: 10%;
   width: 15%;
   color: black;
 }
@@ -167,29 +253,21 @@ h1 {
   position: absolute;
   top: 20%;
   left: 50%;
-  transform: translate(-410%, 630%);
+  transform: translate(-55%, 999%);
   font-size: 20px;
-  height: 150%;
+  height: 100%;
   width: 15%;
   color: black;
-}
-#botd {
-  position: absolute;
-  top: 20%;
-  left: 50%;
-  transform: translate(-50%, 640%);
-  font-size: 20px;
-  background-color: #0f57c6;
-  text-decoration: none;
 }
 #botps {
   position: absolute;
   top: 20%;
   left: 50%;
-  transform: translate(-50%, 640%);
+  transform: translate(-50%, 820%);
   font-size: 20px;
   background-color: #0f57c6;
   text-decoration: none;
+  font-family: "Chewy";
 }
 #video {
   display: flex;
@@ -202,9 +280,9 @@ h1 {
   position: absolute;
   top: 20%;
   left: 50%;
-  transform: translate(-413%, 630%);
+  transform: translate(-55%, 1000%);
   font-size: 20px;
-  height: 150%;
+  height: 100%;
   width: 15%;
   color: black;
 }
@@ -216,7 +294,9 @@ h1 {
   font-size: 20px;
   background-color: #0f57c6;
   text-decoration: none;
+  font-family: "Chewy";
 }
+
 #botld {
   position: absolute;
   top: 20%;
@@ -225,6 +305,7 @@ h1 {
   font-size: 20px;
   background-color: #0f57c6;
   text-decoration: none;
+  font-family: "Chewy";
 }
 #botlp {
   position: absolute;
@@ -234,6 +315,32 @@ h1 {
   font-size: 20px;
   background-color: #0f57c6;
   text-decoration: none;
+  font-family: "Chewy";
+}
+#botle2 {
+  position: relative;
+  margin-bottom: 20px;
+  font-size: 20px;
+  background-color: pink;
+  text-decoration: none;
+  font-family: "Chewy";
+}
+#botld2 {
+  position: relative;
+
+  margin-bottom: 20px;
+  font-size: 20px;
+  background-color: pink;
+  text-decoration: none;
+  font-family: "Chewy";
+}
+#botlp2 {
+  position: relative;
+  margin-bottom: 20px;
+  font-size: 20px;
+  background-color: pink;
+  text-decoration: none;
+  font-family: "Chewy";
 }
 #ise {
   position: absolute;
@@ -243,60 +350,588 @@ h1 {
   font-size: 20px;
   background-color: #0f57c6;
   text-decoration: none;
+  font-family: "Chewy";
 }
 #svg4 {
   position: absolute;
   top: 20%;
   left: 50%;
-  transform: translate(-460%, 630%);
   font-size: 20px;
-  height: 150%;
+  height: 100%;
   width: 35%;
   color: black;
 }
 #bot6 {
-  position: absolute;
-  top: 20%;
-  left: 50%;
-  transform: translate(-50%, 160%);
+  position: relative;
   font-size: 20px;
   background-color: #0f57c6;
   text-decoration: none;
+  font-family: "Chewy";
 }
 #bot7 {
+  position: relative;
+  font-size: 20px;
+  background-color: #0f57c6;
+  font-family: "Chewy";
+  text-decoration: none;
+}
+.t1{
+ margin-bottom: 20px;
+ font-size: 80px;
+ font-family: "Chewy";
+ color:white;
+
+
+} 
+#bot8 {
+  position: relative;
+  font-size: 20px;
+  background-color: #0f57c6;
+  font-family: "Chewy";
+  text-decoration: none;
+}
+#bot001{
   position: absolute;
+  margin-top: 20px;
   top: 20%;
-  left: 50%;
-  transform: translate(-50%, 460%);
+  left: 39%;
   font-size: 20px;
   background-color: #0f57c6;
   text-decoration: none;
+  font-family: "Chewy";
 }
-#bot8 {
+#bot002{
   position: absolute;
-  top: 20%;
-  left: 50%;
-  transform: translate(-50%, 760%);
+  top: 40%;
+  left: 40%;
   font-size: 20px;
   background-color: #0f57c6;
+  font-family: "Chewy";
+  text-decoration: none;
+}
+#bot003{
+  position: absolute;
+  top: 60%;
+  left: 41%;
+  
+  font-size: 20px;
+  background-color: #0f57c6;
+  font-family: "Chewy";
+  text-decoration: none;
+}
+#bot004{
+  position: absolute;
+  margin-top: 20px;
+  top: 20%;
+  left: 39%;
+  font-size: 20px;
+  background-color: #0f57c6;
+  text-decoration: none;
+  font-family: "Chewy";
+}
+#bot005{
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  font-size: 20px;
+  background-color: #0f57c6;
+  font-family: "Chewy";
+  text-decoration: none;
+}
+#bot006{
+  position: absolute;
+  top: 60%;
+  left: 38%;
+  
+  font-size: 20px;
+  background-color: #0f57c6;
+  font-family: "Chewy";
   text-decoration: none;
 }
 #mee {
   transform: translate(132%, 40%);
+  font-family: "Chewy";
 }
 iframe {
-  transform: translate(7%, 30%);
+  transform: translate(7%, 25%);
 }
 #svg6 {
   position: absolute;
   top: 20%;
   left: 50%;
-  transform: translate(-285%, 520%);
+  transform: translate(-55%, 770%);
   font-size: 20px;
-  height: 13%;
+  height: 9%;
   width: 20%;
   color: black;
 }
 #sinrow {
   margin-left: 25%;
+  color: black;
+}
+
+#svg5 {
+  position: relative;
+  font-size: 20px;
+  height: 9%;
+  width: 20%;
+  color: black;
+}
+#llp {
+  position: relative;
+  font-size: 20px;
+  background-color: #0f57c6;
+  text-decoration: none;
+  font-family: "Chewy";
+}
+#svg7 {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-288%, 785%);
+  font-size: 20px;
+  height: 9%;
+  width: 20%;
+  color: black;
+}
+#selecarc {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-68%, 320%);
+  font-size: 20px;
+  text-decoration: none;
+  font-family: "Chewy";
+}
+body {
+  font-family: "Chewy";
+ 
+}
+.FondoP1{
+  background-color: purple;
+}
+#svg8 {
+  position: relative;
+  height: 9%;
+  width: 9%;
+  color: black;
+  float: left;
+ 
+}
+#but10 {
+  position: relative;
+ 
+  color: white;
+  font-size: 20px;
+  background-color: #be5169;
+  text-decoration: none;
+  font-family: "Chewy";
+}
+
+#primpreg {
+  position: relative;
+  font-weight: 900;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Chewy";
+  color:#be5169;
+  margin: 20px;
+  
+}
+.TituloPreguntas{
+  font-weight: 900;
+  font-family: "Chewy";
+color:#be5169;
+
+
+
+}
+#segpreg {
+  position: relative;
+  margin: 20px;
+  font-weight: 900;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Chewy";
+  color:#be5169;
+}
+#terpreg {
+  position: relative;
+  margin: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Chewy";
+  color:#be5169;
+}
+
+#cuartpreg {
+  position: relative;
+  margin: 20px;
+  font-weight: 900;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Chewy";
+  color:#be5169;
+}
+#quintpreg {
+  position: relative;
+
+  font-weight: 900;
+  margin: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Chewy";
+  color:#be5169;
+}
+#bot9 {
+  position: absolute;
+  top: 88%;
+  left: 44%;
+  font-size: 20px;
+  background-color: #06d6a0;
+  font-weight: bold;
+  font-family: "Chewy";
+}
+
+#bot99{
+ 
+  position: relative;
+  font-size: 20px;
+  background-color: pink;
+  text-decoration: none;
+  font-family: "Chewy";
+}
+#title2{
+  font-weight: 900;
+  font-family: "Chewy";
+  color:#2a9d8f;
+  margin: 20px;
+}
+#but11{
+  color:#ffffff;
+  background: #2a9d8f;
+  position: relative;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: "Chewy";
+}
+#primpreg2 {
+  margin: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Chewy";
+  color:#2a9d8f;
+}
+#segpreg2 {
+ 
+
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Chewy";
+  color:#2a9d8f;
+}
+#terpreg2 {
+  
+  margin: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Chewy";
+  color:#2a9d8f;
+}
+#cuartpreg2 {
+ 
+  margin: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Chewy";
+  color:#2a9d8f;
+}
+#quintpreg2 {
+  
+  margin: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Chewy";
+  color:#2a9d8f;
+}
+#bot11 {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, 720%);
+  font-size: 20px;
+  background-color: #fff1e6;
+  font-weight: bold;
+  font-family: "Chewy";
+  color: #ffb4a2
+}
+#Preg3{
+  color: #8f2d56
+}
+#but12{
+  color:#ffffff;
+  background: #b4356a;
+  position: relative;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: "Chewy";
+  
+}
+#primpreg3 {
+  
+ margin:20px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Chewy";
+  color: #b4356a
+}
+#segpreg3 {
+  margin:20px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Chewy";
+  color: #b4356a
+}
+#terpreg3 {
+  margin:20px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Chewy";
+  color: #b4356a
+}
+#cuartpreg3 {
+  margin:20px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Chewy";
+  color: #b4356a
+}
+#quintpreg3 {
+  margin:20px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Chewy";
+  color: #b4356a
+}
+#tittle4{
+  font-weight: 900;
+  font-family: "Chewy";
+  color:#d90429;
+}
+#primpreg4 {
+  margin:20px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Chewy";
+  color: #d90429;
+}
+#segpreg4 {
+  margin:20px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Chewy";
+  color: #d90429;
+}
+#terpreg4 {
+  margin:20px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Chewy";
+  color: #d90429;
+}
+#cuartpreg4 {
+  margin:20px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Chewy";
+  color: #d90429;
+}
+#quintpreg4 {
+  margin:20px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Chewy";
+  color: #d90429;
+}
+#preg5{
+  color: #05668d
+}
+#but13{
+    position: relative;
+    color: white;
+    font-size: 20px;
+    background-color: #05668d;
+    text-decoration: none;
+    font-family: "Chewy";
+  
+}
+#primpreg5{
+  margin:20px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Chewy";
+  color: #05668d
+}
+#segpreg5 {
+  margin:20px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Chewy";
+  color: #05668d
+}
+#terpreg5 {
+  margin:20px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Chewy";
+  color: #05668d
+}
+#cuartpreg5 {
+  margin:20px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Chewy";
+  color: #05668d
+}
+#quintpreg5 {
+  margin:20px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Chewy";
+  color: #05668d
+}
+#primpreg6 {
+  margin:20px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Chewy";
+  color: #ffefbc;
+}
+#segpreg6 {
+  margin:20px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Chewy";
+  color: #ffefbc;
+}
+#terpreg6 {
+  margin:20px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Chewy";
+  color: #ffefbc;
+}
+#cuartpreg6 {
+  margin:20px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Chewy";
+  color: #ffefbc;
+}
+#quintpreg6 {
+  margin:20px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Chewy";
+  color: #ffefbc;
+}
+#bot12 {
+  color: white;
+  position: absolute;
+  font-size: 40px;
+  text-decoration: none;
+  top: 90%;
+  left: 80%;
+  font-size: 20px;
+  font-family: "Chewy";
+}
+#svg12 {
+  position: relative;
+  
+  font-size: 20px;
+ height: 10%;
+  width: 9%;
+  color: black;
+}
+.form-check-label{
+font-size: 20px;
+}
+
+#bott2{
+  background: #06d6a0;
+  color: #2a9d8f;
+  position: absolute;
+  font-size: 40px;
+  text-decoration: none;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: "Chewy";
+}
+#butt4{
+  background: #d90429;
+  color: #ffffff;
+  position: absolute;
+  text-decoration: none;
+  position: relative;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: "Chewy";
+}
+#tit5{
+color: #8338ec
+}
+#butt5{
+  background: #8338ec;
+  color: #ffffff;
+  position: absolute;
+  font-size: 40px;
+  text-decoration: none;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: "Chewy";
+}
+#butt6{
+  background:#ffefbc;
+  color: #000000;  
+  position: relative;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Chewy";
+}
+#correo{
+  color: #05668d
+}
+#text{
+color: black;
+font-size: 27px
+}
+#buttsi{
+  background: #c5dedd;
+  color: #05668d;
+  position: absolute;
+  font-size: 40px;
+  text-decoration: none;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: "Chewy";
+}
+#bot-olv {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, 460%);
+  font-size: 20px;
+  background-color: #f08080;
+  text-decoration: none;
+  font-family: "Chewy";
+  color: #ffffff;
 }
